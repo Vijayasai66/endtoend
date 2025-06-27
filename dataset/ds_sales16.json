@@ -1,0 +1,23 @@
+{
+	"name": "ds_sales16",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Httplinkedservice",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "Vijayasai66/endtoend/refs/heads/main/AdventureWorks_Sales_2016.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
